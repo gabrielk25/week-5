@@ -3,10 +3,57 @@
 <html>
 
 <head>
-<title></title>
+<meta charset="UTF-8">
+<title> Isian </title>
 </head>
 
 <body>
-<h1> </h1>
-<p> </p>
+<h1> Data Diri </h1>
+
+<form action="terima.html">
+    <fieldset id="datadiri">
+<label for="nama">Nama</label>
+<input type="text" id="nama" name="nama"  placeholder="Budi"><br>
+
+<label for="nrp">Nomor Reg Mhs</label>
+<input type="text" id="nrp" name="nrp" placeholder="222554189"><br>
+
+<label for="pwd">Kata Kunci</label>
+<input type="password" id="pwd" name="pwd"><br>
+
+<label for="hobi">Hobby</label>
+<input type="text" id="hobi" name="hobi"><br>
+
+<label for="surel">Alamat Email</label>
+<input type="email" id="surel" name="surel" placeholder="nama@domain.com"><br>
+
+<label for="ultah">Tanggal  Lahir</label>
+<input type="date" id="ultah" name="ultah" placeholder=" 30 April 2007"><br>
+
+<label for="telp">Nomer HP</label>
+<input type="tel" id="telp" name="nohp" placeholder="+62 85426881294 "><br>
+</fieldset>
+
+<br><br>
+<label>Jenis Kelamin </label><br>
+<fieldset id="gender"> 
+<input type="radio" name="gender" value="L">Cowok</radio><br>
+<input type="radio" name="gender" value="P">Cewek</radio><br>
+<input type="radio" name="gender" checked value="X">Terserah</radio><br>
+</fieldset>
+
+
+ <label for="kemampuan">Bisa Apa Saja?</label>
+<fieldset id="kemampuan">
+    <input type="checkbox" name="pakar" value="PS">Bisa Photoshop<br>
+    <input type="checkbox" name="pakar" value="AT">Mahir AI yg Adobe itu<br>
+</fieldset>
+
+
+<br><br>
+
+<input type="submit">
+</form>
+
 </body>
+</html>
